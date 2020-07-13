@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+
 @Component({
   selector: 'app-value',
   templateUrl: './value.component.html',
@@ -11,6 +12,7 @@ export class ValueComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
+/* tslint:disable:typedef */
   ngOnInit() {
     this.getValues();
   }
